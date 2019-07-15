@@ -1,0 +1,48 @@
+<section class="header-border">
+			<header class="header">
+				<article class="container">
+					<div class="header-left">
+						<p class="header-title">
+							<a routerLink="/">smartData</a>
+						</p>
+					</div>
+					<div class="header-right">
+						<nav>
+							<ul class="header-ul">
+								<li><a routerLink="/about">About</a></li>
+								<li><a routerLink="/albums">Albums</a></li>
+								<li><a routerLink="/templateForms">Template Forms</a></li>
+								<li><a routerLink="/reactiveForms">Reactive Forms</a></li>
+								<li><a routerLink="/pipes">Pipes</a></li>
+								<li><a routerLink="/directives">Directives</a></li>
+								<li><a routerLink="/clients">Clients</a></li>
+								<li><a routerLink="/employees">Employees</a></li>
+							</ul>
+						</nav>
+					</div>
+				</article>
+			</header>
+		</section>
+		<section class="nav-border container-fluid">
+			<article class="row">
+				<nav class="navbar nav-bg">
+
+				</nav>
+			</article>
+		</section>
+		<section class="mainContent">
+			<div class="container">
+		<router-outlet></router-outlet>
+			</div>
+		</section>
+		<footer>
+			<div class="container-fluid footer-p">
+				<div class="row">
+					<div class="col-md-12">
+						<p>
+							© 2019 - smartdata
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>

@@ -1,0 +1,18 @@
+<div *ngIf="albums">
+          <div class="row">
+            <div class="col-md-4" *ngFor="let album of albums.results">
+              <div class="media rounds">
+                <div class="media-left">
+                    <img class="media-object" [src]="album.artworkUrl100" alt="...">
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">
+                      {{ album.collectionName }}
+                  </h4>
+                  {{ album.artistName }}
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
